@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Care - Alfagift</title>
+    <link rel="icon" type="image/png" href="assets/alfagift.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+      <header>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center; font-size: 14px;">
+        <div style="display: flex; align-items: center;">
+          <i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>
+          <strong>JABODETABEK</strong>. Masuk untuk ubah lokasi.
+        </div>
+        <div>
+          <a href="#">Layanan Pelanggan</a> |
+          <a href="#">Jelajahi Alfagift</a> |
+          <i class="fas fa-mobile-alt"></i> <a href="#">Download Alfagift App</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" style="background-color: white; border-top: 1px solid #ddd; padding: 10px 0;">
+      <div class="container" style="display: flex; align-items: center; gap: 16px;">
+        <img src="/assets/logo.png" alt="Logo Alfagift" style="height: 80px;">
+
+        <!-- Category Dropdown -->
+        <div class="category-dropdown">
+            <button class="category-btn" aria-label="Buka Kategori">
+                <i class="fas fa-th"></i> Kategori
+            </button>
+            
+            <!-- Dropdown Menu -->
+            <div class="dropdown-menu">
+                <div class="dropdown-content">
+                    <h3>Kategori</h3>
+                    <ul class="category-list">
+                        <li class="category-item">
+                            <a href="kebutuhan-dapur.html" class="category-link">
+                                <span class="category-icon-item">🍳</span>
+                                <span>Kebutuhan Dapur</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="ibu-anak.html" class="category-link">
+                                <span class="category-icon-item">👶</span>
+                                <span>Kebutuhan Ibu & Anak</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="kebutuhan-rumah.html" class="category-link">
+                                <span class="category-icon-item">🏠</span>
+                                <span>Kebutuhan Rumah</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="makanan.html" class="category-link">
+                                <span class="category-icon-item">🍕</span>
+                                <span>Makanan</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="minuman.html" class="category-link">
+                                <span class="category-icon-item">🥤</span>
+                                <span>Minuman</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="produk-segar.html" class="category-link">
+                                <span class="category-icon-item">🥩</span>
+                                <span>Produk Segar & Beku</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="personal-care.html" class="category-link">
+                                <span class="category-icon-item">🧴</span>
+                                <span>Personal Care</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="kebutuhan-kesehatan.html" class="category-link">
+                                <span class="category-icon-item">💊</span>
+                                <span>Kebutuhan Kesehatan</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="lifestyle.html" class="category-link">
+                                <span class="category-icon-item">👕</span>
+                                <span>Gaya Hidup</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="pet.html" class="category-link">
+                                <span class="category-icon-item">🐕</span>
+                                <span>Makanan Peliharaan</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-container">
+          <input type="text" placeholder="Cari produk..." class="search-input">
+          <button class="search-btn" aria-label="Cari">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="nav-menu">
+          <a href="#" class="nav-link">Brand</a>
+          <a href="#" class="nav-link">Promo</a>
+          <button class="cart-btn" aria-label="Keranjang">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-badge">0</span>
+          </button>
+          <a href="register.html" class="btn btn-daftar">Daftar</a>
+          <a href="register.html" class="btn btn-masuk">Masuk</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Personal Care</span>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <div class="page-title">
+                    <h1>🧴 Personal Care</h1>
+                    <p>Produk perawatan diri untuk kecantikan dan kesehatan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="category-page">
+        <div class="container">
+            <div class="category-layout">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <div class="filter-section">
+                        <h3>Kategori</h3>
+                        <ul class="filter-list">
+                            <li><a href="#">Perawatan & Riasan Wajah </a></li>
+                            <li><a href="#">Perawatan Rias & Tata Rambut</a></li>
+                            <li><a href="#">Perawatan Tubuh</a></li>
+                            <li><a href="#">Perawatan Pria</a></li>
+                            <li><a href="#">Perawatan Gigi & Mulut</a></li>
+                            <li><a href="#">Deodorant</a></li>
+                            <li><a href="#">Kosmetik</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Jenis Kulit</h3>
+                        <ul class="filter-list">
+                            <li><a href="#">Normal</a></li>
+                            <li><a href="#">Berminyak</a></li>
+                            <li><a href="#">Kering</a></li>
+                            <li><a href="#">Sensitif</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Filter Harga</h3>
+                        <div class="price-filter">
+                            <input type="number" placeholder="Min" class="price-input">
+                            <input type="number" placeholder="Max" class="price-input">
+                            <button class="apply-btn">Terapkan</button>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="main-content">
+                    <!-- Toolbar -->
+                    <div class="toolbar">
+                        <div class="results-count">
+                            <span>Menampilkan 8 produk</span>
+                        </div>
+                        <div class="toolbar-controls">
+                            <select class="sort-select">
+                                <option value="popular">Paling Populer</option>
+                                <option value="newest">Terbaru</option>
+                                <option value="price-low">Harga Terendah</option>
+                                <option value="price-high">Harga Tertinggi</option>
+                                <option value="rating">Rating Tertinggi</option>
+                            </select>
+                            <div class="view-toggle">
+                                <button class="view-btn active">
+                                    <i class="fas fa-th"></i>
+                                </button>
+                                <button class="view-btn">
+                                    <i class="fas fa-list"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    <div class="product-grid category-products">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/muka.jpg" alt="Facial Wash">
+                                <span class="discount-badge">30%</span>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Wardah Perfect Bright Oil Control Pembersih Wajah Creamy Foam Berries 100 ml</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(345)</span>
+                                </div>
+                                <p class="original-price">Rp 25.000</p>
+                                <p class="price">Rp 17.500</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/sampo.jpg" alt="Shampoo">
+                                <div class="product-ribbon">
+                                    <span>Baru</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Sunsilk Sampo Anti Ketombe 320 ml</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(267)</span>
+                                </div>
+                                <p class="price">Rp 32.000</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/lotion.jpg" alt="Body Lotion">
+                                <span class="discount-badge">25%</span>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Naturally Speaking Lotion Pelembap Tubuh Happy Cocoa 180 ml</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="rating-count">(198)</span>
+                                </div>
+                                <p class="original-price">Rp 28.000</p>
+                                <p class="price">Rp 21.000</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button sold-out" disabled>Sold Out</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/odol.jpg" alt="Pasta Gigi">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Pepsodent Pasta Gigi Pencegah Gigi Berlubang 75 g</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(234)</span>
+                                </div>
+                                <p class="price">Rp 15.500</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/dove.jpg" alt="Deodorant">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Dove Deodoran Roll On Ultimate Repair 40 ml</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(189)</span>
+                                </div>
+                                <p class="price">Rp 28.000</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/lip.jpg" alt="Lipstik">
+                                <span class="discount-badge">20%</span>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Implora Day To Day Lip Bullet Lipstik + Gantungan 04 Attention 1.5 g</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(156)</span>
+                                </div>
+                                <p class="original-price">Rp 45.000</p>
+                                <p class="price">Rp 36.000</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/biore.jpg" alt="Sabun Mandi">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Biore Relaxing Aromatic Sabun Mandi Cair 100 ml</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(167)</span>
+                                </div>
+                                <p class="price">Rp 22.500</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/assets/ss.jpg" alt="Sunscreen">
+                                <div class="product-ribbon">
+                                    <span>Baru</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Amaterasun UV Waterbarrier Sunscreen Wajah SPF 35 40 g</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="rating-count">(145)</span>
+                                </div>
+                                <p class="price">Rp 65.000</p>
+                                <div class="shipping">
+                                    <i class="fas fa-truck shipping-icon"></i>
+                                    Pengiriman cepat
+                                </div>
+                                <button class="buy-button">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="page-btn" disabled>Sebelumnya</button>
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <button class="page-btn">Selanjutnya</button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+   <!-- Footer -->
+  <footer class="footer">
+      <div class="footer-container">
+          <!-- Layanan Pelanggan -->
+          <div class="footer-section">
+              <h3>Layanan Pelanggan</h3>
+              <ul>
+                  <li><a href="#">Pertanyaan Umum</a></li>
+                  <li><a href="#">Cara Belanja</a></li>
+                  <li><a href="#">A-Poin</a></li>
+                  <li><a href="#">Gratis Ongkir</a></li>
+                  <li><a href="#">Beli Voucher</a></li>
+              </ul>
+          </div>
+
+          <!-- Jelajahi Alfagift -->
+          <div class="footer-section">
+              <h3>Jelajahi Alfagift</h3>
+              <ul>
+                  <li><a href="#">Tentang Alfagift</a></li>
+                  <li><a href="#">Syarat & Ketentuan</a></li>
+                  <li><a href="#">Kebijakan Privasi</a></li>
+                  <li><a href="#">Karir</a></li>
+                  <li><a href="#">Blog</a></li>
+              </ul>
+          </div>
+
+          <!-- Metode Pembayaran & Layanan Pengiriman -->
+          <div class="footer-section">
+              <h3>Metode Pembayaran</h3>
+              <div class="payment-methods">
+                  <div class="payment-logo">AEON</div>
+                  <div class="payment-logo bca">BCA</div>
+                  <div class="payment-logo mandiri">mandiri</div>
+                  <div class="payment-logo">GPN</div>
+              </div>
+              
+              <h3 class="delivery-title">Layanan Pengiriman</h3>
+              <div class="delivery-service">
+                  <div class="delivery-logo">J&T</div>
+              </div>
+          </div>
+
+          <!-- Ikuti Kami & Hubungi Kami -->
+          <div class="footer-section">
+              <h3>Ikuti Kami</h3>
+              <div class="social-media">
+                  <a href="#" class="social-icon facebook">f</a>
+                  <a href="#" class="social-icon twitter">t</a>
+                  <a href="#" class="social-icon instagram">📷</a>
+              </div>
+
+              <h3 class="contact-title">Hubungi Kami</h3>
+              <div class="contact-info">
+                  <div class="contact-item email">alfacare@sat.co.id</div>
+                  <div class="contact-item phone">1500-959</div>
+              </div>
+
+              <div class="app-downloads">
+                  <a href="#" class="google-play">
+                      <span>📱</span>
+                      <div>
+                          <div class="app-subtitle">GET IT ON</div>
+                          <div class="app-title">Google Play</div>
+                      </div>
+                  </a>
+                  <a href="#" class="app-store">
+                      <span>🍎</span>
+                      <div>
+                          <div class="app-subtitle">Download on the</div>
+                          <div class="app-title">App Store</div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="copyright">
+          © 2022, PT. Sumber Alfaria Trijaya
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

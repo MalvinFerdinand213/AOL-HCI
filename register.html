@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar - Alfagift</title>
+    <link rel="icon" type="image/png" href="assets/alfagift.png">
+    <link rel="stylesheet" href="register.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- - -->
+    <div id="notification" class="notification"></div>
+  <header>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center; font-size: 14px;">
+        <div style="display: flex; align-items: center;">
+          <i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>
+          <strong>JABODETABEK</strong>. Masuk untuk ubah lokasi.
+        </div>
+        <div>
+          <a href="#">Layanan Pelanggan</a> |
+          <a href="#">Jelajahi Alfagift</a> |
+          <i class="fas fa-mobile-alt"></i> <a href="#">Download Alfagift App</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" style="background-color: white; border-top: 1px solid #ddd; padding: 10px 0;">
+      <div class="container" style="display: flex; align-items: center; gap: 16px;">
+        <img src="/assets/logo.png" alt="Logo Alfagift" style="height: 80px;">
+
+        <!-- Category Dropdown -->
+        <div class="category-dropdown">
+            <button class="category-btn" aria-label="Buka Kategori">
+                <i class="fas fa-th"></i> Kategori
+            </button>
+            
+            <!-- Dropdown Menu -->
+            <div class="dropdown-menu">
+                <div class="dropdown-content">
+                    <h3>Kategori</h3>
+                    <ul class="category-list">
+                        <li class="category-item">
+                            <a href="kebutuhan-dapur.html" class="category-link">
+                                <span class="category-icon-item">🍳</span>
+                                <span>Kebutuhan Dapur</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="ibu-anak.html" class="category-link">
+                                <span class="category-icon-item">👶</span>
+                                <span>Kebutuhan Ibu & Anak</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="kebutuhan-rumah.html" class="category-link">
+                                <span class="category-icon-item">🏠</span>
+                                <span>Kebutuhan Rumah</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="makanan.html" class="category-link">
+                                <span class="category-icon-item">🍕</span>
+                                <span>Makanan</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="minuman.html" class="category-link">
+                                <span class="category-icon-item">🥤</span>
+                                <span>Minuman</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="produk-segar.html" class="category-link">
+                                <span class="category-icon-item">🥩</span>
+                                <span>Produk Segar & Beku</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="personal-care.html" class="category-link">
+                                <span class="category-icon-item">🧴</span>
+                                <span>Personal Care</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="kebutuhan-kesehatan.html" class="category-link">
+                                <span class="category-icon-item">💊</span>
+                                <span>Kebutuhan Kesehatan</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="lifestyle.html" class="category-link">
+                                <span class="category-icon-item">👕</span>
+                                <span>Gaya Hidup</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="pet.html" class="category-link">
+                                <span class="category-icon-item">🐕</span>
+                                <span>Makanan Peliharaan</span>
+                                <span class="arrow">›</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-container">
+          <input type="text" placeholder="Cari produk..." class="search-input">
+          <button class="search-btn" aria-label="Cari">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="nav-menu">
+          <a href="#" class="nav-link">Brand</a>
+          <a href="#" class="nav-link">Promo</a>
+          <button class="cart-btn" aria-label="Keranjang">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-badge">0</span>
+          </button>
+          <a href="register.html" class="btn btn-daftar">Daftar</a>
+          <a href="register.html" class="btn btn-masuk">Masuk</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+   <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Daftar</span>
+        </div>
+    </div>
+
+<body>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="register-container">
+            <div class="register-card">
+                <h1 class="register-title">Daftar</h1>
+                <p class="register-subtitle">
+                    Sudah punya akun Alfagift? 
+                    <a href="login.html" class="login-link">Masuk</a>
+                </p>
+                
+                <form class="register-form" id="registerForm">
+                    <div class="form-group">
+                        <label for="fullName" class="form-label">Nama Lengkap</label>
+                        <input 
+                            type="text" 
+                            id="fullName" 
+                            class="form-input" 
+                            placeholder="Masukkan nama lengkap Anda"
+                            required
+                        >
+                        <div id="fullNameError" class="error-text">Nama harus minimal 3 karakter.</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            class="form-input" 
+                            placeholder="Masukkan email Anda"
+                            required
+                        >
+                        <div id="emailError" class="error-text">Masukkan email yang valid.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="form-label">No. Handphone</label>
+                        <input 
+                            type="tel" 
+                            id="phone" 
+                            class="form-input" 
+                            placeholder="Masukkan nomor handphone Anda"
+                            required
+                        >
+                        <div id="phoneError" class="error-text">Masukkan nomor handphone yang valid.</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <div class="password-container">
+                            <input 
+                                type="password" 
+                                id="password" 
+                                class="form-input" 
+                                placeholder="Buat password Anda"
+                                required
+                            >
+                            <button type="button" class="password-toggle" id="passwordToggle">
+                                <i class="fas fa-eye-slash"></i>
+                            </button>
+                        </div>
+                        <div id="passwordError" class="error-text">Password minimal 6 karakter dengan huruf besar, kecil, dan angka.</div>
+                    </div>
+
+
+                       <div class="form-group">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="Ingat Saya" required>
+                            <span class="checkmark"></span>
+                            Ingat Saya 
+                        </label>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="agreeTerms" required>
+                            <span class="checkmark"></span>
+                            Saya setuju dengan <a href="#" class="terms-link">Syarat & Ketentuan</a> dan <a href="#" class="terms-link">Kebijakan Privasi</a>
+                        </label>
+                        <div id="termsError" class="error-text">Anda harus menyetujui syarat dan ketentuan.</div>
+                    </div>
+
+                    
+                    <button type="submit" class="register-btn">Daftar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+          <!-- Layanan Pelanggan -->
+          <div class="footer-section">
+              <h3>Layanan Pelanggan</h3>
+              <ul>
+                  <li><a href="#">Pertanyaan Umum</a></li>
+                  <li><a href="#">Cara Belanja</a></li>
+                  <li><a href="#">A-Poin</a></li>
+                  <li><a href="#">Gratis Ongkir</a></li>
+                  <li><a href="#">Beli Voucher</a></li>
+              </ul>
+          </div>
+
+          <!-- Jelajahi Alfagift -->
+          <div class="footer-section">
+              <h3>Jelajahi Alfagift</h3>
+              <ul>
+                  <li><a href="#">Tentang Alfagift</a></li>
+                  <li><a href="#">Syarat & Ketentuan</a></li>
+                  <li><a href="#">Kebijakan Privasi</a></li>
+                  <li><a href="#">Karir</a></li>
+                  <li><a href="#">Blog</a></li>
+              </ul>
+          </div>
+
+          <!-- Metode Pembayaran & Layanan Pengiriman -->
+          <div class="footer-section">
+              <h3>Metode Pembayaran</h3>
+              <div class="payment-methods">
+                  <div class="payment-logo">AEON</div>
+                  <div class="payment-logo bca">BCA</div>
+                  <div class="payment-logo mandiri">mandiri</div>
+                  <div class="payment-logo">GPN</div>
+              </div>
+              
+              <h3 class="delivery-title">Layanan Pengiriman</h3>
+              <div class="delivery-service">
+                  <div class="delivery-logo">J&T</div>
+              </div>
+          </div>
+
+          <!-- Ikuti Kami & Hubungi Kami -->
+          <div class="footer-section">
+              <h3>Ikuti Kami</h3>
+              <div class="social-media">
+                  <a href="#" class="social-icon facebook">f</a>
+                  <a href="#" class="social-icon twitter">t</a>
+                  <a href="#" class="social-icon instagram">📷</a>
+              </div>
+
+              <h3 class="contact-title">Hubungi Kami</h3>
+              <div class="contact-info">
+                  <div class="contact-item email">alfacare@sat.co.id</div>
+                  <div class="contact-item phone">1500-959</div>
+              </div>
+
+              <div class="app-downloads">
+                  <a href="#" class="google-play">
+                      <span>📱</span>
+                      <div>
+                          <div class="app-subtitle">GET IT ON</div>
+                          <div class="app-title">Google Play</div>
+                      </div>
+                  </a>
+                  <a href="#" class="app-store">
+                      <span>🍎</span>
+                      <div>
+                          <div class="app-subtitle">Download on the</div>
+                          <div class="app-title">App Store</div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="copyright">
+          © 2022, PT. Sumber Alfaria Trijaya
+      </div>
+  </footer>
+
+    <script src="register.js"></script>
+</body>
+</html>

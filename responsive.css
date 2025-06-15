@@ -1,0 +1,118 @@
+/* Responsive Styles */
+
+/* Category Scroll Styles */
+.kategori-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kategori-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 40px; /* Add horizontal padding instead of container width reduction */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.kategori-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.scroll-btn:hover {
+  background: #f8f9fa;
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.scroll-btn.left {
+  left: 4px;
+}
+
+.scroll-btn.right {
+  right: 4px;
+}
+
+.kategori-item {
+  flex: 0 0 auto;
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kategori-item:hover {
+  background: #f8f9fa;
+  border-color: #dc3545;
+  color: #dc3545;
+  transform: translateY(-2px);
+}
+
+.kategori-item i {
+  font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .kategori-container {
+    padding: 10px 32px;
+  }
+  
+  .scroll-btn {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .scroll-btn.left {
+    left: 2px;
+  }
+  
+  .scroll-btn.right {
+    right: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .kategori-container {
+    padding: 10px 24px;
+    gap: 12px;
+  }
+  
+  .scroll-btn {
+    width: 24px;
+    height: 24px;
+  }
+}
